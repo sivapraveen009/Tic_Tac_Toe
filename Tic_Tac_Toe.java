@@ -23,7 +23,7 @@ public class TicTacToe_s extends javax.swing.JFrame {
      */
     public TicTacToe_s() {
         initComponents();
-        setSize(1200,600);
+        setSize(1300,700);
         setLocationRelativeTo(null);
     }
     
@@ -763,17 +763,8 @@ private JFrame frame;
         }
         choose_a_Player();
         winningGame();
-    }//GEN-LAST:event_jButton9ActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
+    }
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -800,7 +791,6 @@ private JFrame frame;
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel PlayerO;
     private javax.swing.JLabel PlayerX;
     private javax.swing.JButton jButton1;
